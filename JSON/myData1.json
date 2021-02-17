@@ -1,0 +1,16 @@
+[
+    {   "name":"Shwe War",
+        "species":"cat",
+        "favFood":"fried fish"
+    },
+    {   "name":"Aung Net",
+        "species":"dog",
+        "favFood":"Bone"
+    },
+    {   "name":"Shwe gae",
+        "species":"bird",
+        "favFood":"peas"
+    }
+    
+
+]
