@@ -1,15 +1,18 @@
 [
     {   "name":"Shwe War",
         "species":"cat",
-        "favFood":"fried fish"
+        "favFood":["fried fish","fried potato"],
+        "dislikes":["carrot","apple"]
     },
     {   "name":"Aung Net",
         "species":"dog",
-        "favFood":"Bone"
+        "favFood":["Bone","fish"],
+        "dislikes":"carrot"
     },
     {   "name":"Shwe gae",
         "species":"bird",
-        "favFood":"peas"
+        "favFood":["peas","apple"],
+        "dislikes":["fish","dog"]
     }
     
 

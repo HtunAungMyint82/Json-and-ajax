@@ -19,9 +19,10 @@ btn.addEventListener("click", function(){
 function renderHTML(data){
     var htmlString = "";
 
-    for(var i = 0; i < data.length; i++){
-        htmlString += `
-            <p> ${data[i].name} is a ${data[i].species}.</p>
+    for(i = 0; i < data.length; i++){
+        htmlString +=
+         `
+            <p> ${data[i].name} is a ${data[i].species} who likes ${data[i].favFood} and dislikes ${data[i].dislikes}.</p>
         `;
     }
     mydata.insertAdjacentHTML('beforeend', htmlString);
